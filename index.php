@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="homePage">
+<html ng-app="homeApp">
      <head>
           <!-- Title -->
           <title> Willamette Chicano Alliance </title>
@@ -16,7 +16,8 @@
           <!-- js & jQuery -->
           <script src="js/jquery.js"></script>
           <script src="js/jquery-ui.js"></script>
-          <script src="js/main.js"></script>
+          <script src="js/angular.min.js"></script>
+          <script src="js/homepage.js"></script>
      </head>
      <body>
 <?php include('bar-top.php'); ?>

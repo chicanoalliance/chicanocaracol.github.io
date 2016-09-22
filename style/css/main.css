@@ -64,4 +64,19 @@ body {
 .goog-te-gadget-simple .goog-te-menu-value span {
   color: #FFF !important; }
 
+#programs {
+  float: right; }
+  #programs li {
+    display: inline-block; }
+    #programs li a {
+      color: #969696;
+      text-decoration: none;
+      padding: 19px 35px; }
+      #programs li a:hover {
+        background: #2c5794;
+        color: #FFF; }
+
+#lang {
+  float: left; }
+
 /*# sourceMappingURL=main.css.map */

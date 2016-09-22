@@ -10,8 +10,10 @@
                          </script>
                          <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
                     </div>
-                    <div id="programs">
-
+                    <ul id="programs" ng-controller="barControllers">
+                         <li class="programs-span" ng-repeat="items in users">
+                              <a href="{{items.website}}">{{items.short}}</a>
+                         </li>
                     </div>
                </div>
           </div>
