@@ -1,0 +1,67 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* Basic */
+body {
+  margin: auto;
+  padding: 0px; }
+
+#bar-top {
+  background: #2d2d2d;
+  height: 50px;
+  width: 100%; }
+
+#bar-top_wrap {
+  max-width: 1200px;
+  height: 50px;
+  margin: auto;
+  line-height: 45px; }
+
+.goog-te-gadget-simple {
+  background: #2d2d2d !important;
+  border: none !important; }
+
+.goog-te-gadget-simple .goog-te-menu-value span {
+  color: #FFF !important; }
+
+/*# sourceMappingURL=main.css.map */
